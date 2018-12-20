@@ -1,0 +1,84 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "sourceType": "script"
+    },
+    "plugins": [
+        "html"
+    ],
+    "globals": {
+        "document": true,
+        "window": true,
+        "Element": true,
+        "Class": true,
+        "Inherit": true,
+        "Stage": true,
+        "Socket": true,
+        "Global": true,
+        "Hydra": true,
+        "Component": true,
+        "Events": true,
+        "Data": true,
+        "Assets": true,
+        "Utils": true,
+        "AssetLoader": true,
+        "Playground": true,
+        "Container": true,
+        "Model": true,
+        "Config": true,
+        "Track": true,
+        "defer": true,
+        "Dev": true,
+        "Device": true,
+        "clearTween": true,
+        "Mouse": true,
+        "tween": true,
+        "$": true,
+        "ASSETS": true,
+        "Interaction": true,
+        "IntersectionObserver": true,
+        "get": true,
+        "location": true,
+        "Storage": true,
+        "FirebaseMessaging": true,
+        "Render": true,
+        "AppEvents": true,
+        "post": true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4,
+            { "SwitchCase": 1 }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single",
+            { "allowTemplateLiterals": true }
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "no-undef": 0,
+        "no-console": [
+            "error",
+            {
+                "allow": ["log", "error", "group", "groupEnd"]
+            }
+        ],
+        "no-unused-vars": [
+            "error",
+            { "ignoreRestSiblings": true, "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }
+        ]
+    }
+}

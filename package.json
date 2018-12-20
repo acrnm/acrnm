@@ -1,0 +1,20 @@
+{
+  "name": "acrnm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "acrnm": "./bin/card.js"
+  },
+  "keywords": [],
+  "author": "G. Rodriguez <g@activetheory.net> (https://activetheory.net)",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0"
+  }
+}
